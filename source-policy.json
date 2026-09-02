@@ -1,21 +1,28 @@
 {
   "it_si": {
-    "priority_sources": ["IT for Business","L'Informaticien","Distributique","ChannelBiz"],
-    "signals": ["transformation numérique","cloud","ERP","cybersécurité","projets SI","data","IA","modernisation applicative","partenariats intégrateurs/éditeurs"]
+    "priority_sources": ["LinkedIn public","IT for Business","L'Informaticien","Distributique","ChannelBiz"],
+    "signals": ["transformation numérique","cloud","ERP","cybersécurité","projets SI","data","IA","modernisation applicative","partenariats intégrateurs/éditeurs","nomination DSI","prise de poste CIO","recrutement Lead Dev","recrutement Chef de projet ERP"]
   },
   "rh_sirh": {
-    "priority_sources": ["RH Matin","Focus RH","Welcome to the Jungle","Indeed","LinkedIn Jobs"],
-    "signals": ["digitalisation RH","SIRH","paie","gestion des temps","talent","recrutement","réorganisation RH","Chef de projet SIRH","Responsable paie","DRH"]
+    "priority_sources": ["LinkedIn public","LinkedIn Jobs","RH Matin","Focus RH","Welcome to the Jungle","Indeed"],
+    "signals": ["digitalisation RH","SIRH","paie","gestion des temps","talent","recrutement","réorganisation RH","Chef de projet SIRH","Responsable paie","DRH","prise de poste DRH","nomination DRH","offre SIRH","offre paie"]
   },
   "finance_daf": {
-    "priority_sources": ["DSI / Daf Magazine","Le Monde du Chiffre","Option Finance"],
-    "signals": ["trésorerie","TMS","facturation électronique","dématérialisation","ERP Finance","comptabilité","fiscalité","M&A","levée de fonds","restructuration","refinancement","DAF","Directeur comptable","Trésorier"]
+    "priority_sources": ["LinkedIn public","DSI / Daf Magazine","Le Monde du Chiffre","Option Finance"],
+    "signals": ["trésorerie","TMS","facturation électronique","dématérialisation","ERP Finance","comptabilité","fiscalité","M&A","levée de fonds","restructuration","refinancement","DAF","Directeur comptable","Trésorier","nomination DAF","prise de poste CFO","recrutement Trésorier","recrutement Directeur comptable"]
+  },
+  "linkedin_public": {
+    "priority": "high",
+    "use_cases": ["nominations","changements de poste","recrutements stratégiques","posts publics de décideurs","annonces de transformation","annonces de nouveaux outils ou partenaires"],
+    "target_roles": ["DAF","CFO","DSI","CIO","DRH","CHRO","Trésorier","Directeur comptable","Responsable paie","Chef de projet ERP","Chef de projet SIRH","Directeur Transformation"],
+    "rules": ["n'utiliser que du contenu public","indiquer la date et le lien source quand disponibles","croiser les nominations importantes avec une seconde source si possible","ne jamais inventer d'email ni de poste"]
   },
   "rules": {
     "prefer_primary_company_sources": true,
     "cross_check_contacts": true,
     "never_invent_email_addresses": true,
     "jobboards_are_early_signals": true,
-    "label_news_as_commercial_signal_or_general_news": true
+    "label_news_as_commercial_signal_or_general_news": true,
+    "linkedin_public_is_early_signal_source": true
   }
 }
