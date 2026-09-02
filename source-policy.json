@@ -1,0 +1,21 @@
+{
+  "it_si": {
+    "priority_sources": ["IT for Business","L'Informaticien","Distributique","ChannelBiz"],
+    "signals": ["transformation numérique","cloud","ERP","cybersécurité","projets SI","data","IA","modernisation applicative","partenariats intégrateurs/éditeurs"]
+  },
+  "rh_sirh": {
+    "priority_sources": ["RH Matin","Focus RH","Welcome to the Jungle","Indeed","LinkedIn Jobs"],
+    "signals": ["digitalisation RH","SIRH","paie","gestion des temps","talent","recrutement","réorganisation RH","Chef de projet SIRH","Responsable paie","DRH"]
+  },
+  "finance_daf": {
+    "priority_sources": ["DSI / Daf Magazine","Le Monde du Chiffre","Option Finance"],
+    "signals": ["trésorerie","TMS","facturation électronique","dématérialisation","ERP Finance","comptabilité","fiscalité","M&A","levée de fonds","restructuration","refinancement","DAF","Directeur comptable","Trésorier"]
+  },
+  "rules": {
+    "prefer_primary_company_sources": true,
+    "cross_check_contacts": true,
+    "never_invent_email_addresses": true,
+    "jobboards_are_early_signals": true,
+    "label_news_as_commercial_signal_or_general_news": true
+  }
+}
